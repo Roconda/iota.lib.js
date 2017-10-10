@@ -4,7 +4,7 @@
   "description": "Javascript Library for IOTA",
   "main": "./lib/iota.js",
   "scripts": {
-    "build": "gulp",
+    "build": "./node_modules/.bin/gulp",
     "test": "mocha"
   },
   "author": {
