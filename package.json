@@ -4,8 +4,8 @@
   "description": "Javascript Library for IOTA",
   "main": "./lib/iota.js",
   "scripts": {
-    "build": "gulp",
-    "test": "mocha"
+    "build": "./node_modules/.bin/gulp",
+    "test": "./node_modules/./bin/mocha"
   },
   "author": {
     "name": "Dominik Schiener (IOTA Foundation)",
